@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: Kaush;
+    src: url(Fonts/Kaushan/KaushanScript-Regular.ttf);
+}
+
+@font-face {
+    font-family: Right;
+    src: url(Fonts/Righteous/Righteous-Regular.ttf);
+}
+
+@font-face {
+    font-family: Dancing;
+    src: url(Fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
+
+.disco {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    border: thick double #e25fd7;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
+
+.disco .box-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.disco .box-container:nth-child(1) {
+    padding-bottom: 2rem;
+}
+
+
+.disco .box-container .box {
+    width: 400px;
+}
+
+.disco .box-container .box img {
+    width: 100%;
+}
+
+.disco .box-container .box h2 {
+    text-align: center;
+    background-color: #262626;
+    color: #d9d9d9;
+    font-family: Kaush;
+    padding-bottom: 0.5rem;
+}
+
+.disco .box-container .box a {
+    font-family: Dancing;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: rebeccapurple;
+    margin-top: 1rem;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 5%;
+    color: #d9d9d9;
+    font-family: Right;
+    font-size: 3rem;
+}
+
+.align {
+    display: flex;
+    background-color: #262626;
+    justify-content: space-between;
+    align-content: space-between;
+    text-align: center;
+    width: 100%;
+    align-items: flex-start;
+}
+
+body {
+    background-color: #262626;
+}
+
+.color {
+    background-color: violet;
+    width: 10rem;
+    height: 5rem;
+}
+
+.left {
+    margin-right: 29%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+u {
+    text-decoration: double underline #e25fd7;
+}
+
+.disco .box-container .box div {
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border: inset #A8A5A4;
+}
